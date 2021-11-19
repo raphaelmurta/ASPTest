@@ -1,0 +1,24 @@
+{
+  "name": "altersolutions/asp-test",
+  "autoload": {
+    "psr-4": {
+      "ASPTest\\": "src/"
+    }
+  },
+  "authors": [
+    {
+      "name": "Raphael Murta",
+      "email": "ramurta2@gmail.com"
+    }
+  ],
+  "scripts": {
+    "test": "vendor/bin/phpunit"
+  },
+  "require": {
+    "symfony/console": "^v5.3.10",
+    "polarising/bcrypt": "^1.0.2",
+    "ext-pdo": "*",
+    "symfony/dotenv": "^5.3",
+    "phpunit/phpunit": "^9.5"
+  }
+}

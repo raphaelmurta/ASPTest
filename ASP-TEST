@@ -1,0 +1,12 @@
+#!/usr/bin/env php
+<?php
+require_once __DIR__ . '/vendor/autoload.php';
+
+use Symfony\Component\Console\Application;
+use ASPTest\Commands\UserCreateCommand;
+use ASPTest\Commands\UserPassCreateCommand;
+
+$app = new Application();
+$app->add(new UserCreateCommand());
+$app->add(new UserPassCreateCommand());
+$app->run();
