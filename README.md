@@ -54,6 +54,6 @@ docker exec php-app composer test tests/CreateUserPWDTest.php
 ## Info
 
 ```
-All configuration and database access data are in the file .env.example located in the folder public_html
+All configuration and database access data are in the file .env.example located at the root of the project
 ```
 
